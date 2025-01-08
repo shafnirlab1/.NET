@@ -1,4 +1,4 @@
-﻿FROM mcr.microsoft.com/dotnet/framework/sdk:3.5 AS base
+﻿FROM mcr.microsoft.com/dotnet/framework/sdk:4.8 AS base
 WORKDIR /app
 ENV ASPNETCORE_URLS=http://+:80
 ENV DOTNET_RUNNING_IN_CONTAINER=true
